@@ -1,0 +1,38 @@
+@mixin div_placement($align, $just, $direction) {
+    display: flex;
+    align-items: $align ;
+    justify-content: $just;
+    flex-direction:  $direction;
+    
+}
+
+@mixin reset {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Nunito', sans-serif;
+   user-select: none;
+//    overflow-x: hidden;
+}
+
+%headingStyle{
+    margin: 30px 0 30px 0;
+    position: relative;
+    &::before {
+        content: " ";
+        position: absolute;
+        top: 105%;
+        width: 50px;
+        height: 7px;
+        border-radius: 5px;
+        background-color: $blue_color;
+    }
+}
+
+@mixin centerDiv($jc,$fd) {
+    display: flex;
+    align-items: center;
+    justify-content: $jc;
+    flex-direction: $fd; 
+ }
+ 

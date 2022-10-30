@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--################################## START OF SWIPER LINK ############################## -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!--################################## END OF SWIPER LINK ############################## -->
+
+    <!--################################## START OF CSS LINK ############################## -->
+    <link rel="stylesheet" href="./grehma css/index.css">
+    <!--################################## END OF CSS LINK ############################## -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!--################################## START OF INFO CONTAINER ############################## -->
+    <div class="info_container">
+        <div class="info_container-margn">
+            <div class="info_content">
+                <a href="tel:+08134040468"> <i class="fa-solid fa-phone"></i> call: +237680885387</a>
+                <a href="mailto:gracereliefmedical@gemail.com"> <i class="fa-solid fa-envelope"></i>
+                    gracereliefmedical@gmail.com</a>
+                <a href=""><i class="fa-solid fa-location-dot"></i> No 5 george avenue street</a>
+            </div>
+            <div class="info_content">
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+        </div>
+    </div>
+    <!--################################## END OF INFO CONTAINER############################## -->
+
+    <!--################################## START OF NAV CONTAINER ############################## -->
+    <div class="nav_container">
+        <div class="nav_container-margin">
+            <div class="nav_log"> <img src="./images/WhatsApp_Image_2022-10-21_at_01.25.28__1_-removebg-preview.png"
+                    alt=""></div>
+            <div class="nav_links">
+                <ul>
+                    <li><a href="./index.html" class="active_links">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Doctors</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a class="cart"><i class="fa fa-bell" aria-hidden="true">
+                                <div class="cartNum">0</div>
+                            </i></a></li>
+                </ul>
+            </div>
+
+            <div class="OpenNav">
+                <button onclick="openNav()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--################################## END OF NAV CONTAINER ############################## -->
+
+    <!--################################## START OF SLIDER CONTAINER ############################## -->
+    <div class="slider_general_container">
+        <div class="second_general">
+            <div class="slider_container">
+                <div class="slider_container-margin">
+                    <div class="slider_content">
+                        <div class="slider_items">
+                            <h2>Exceptional Health care for Everyone</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora temporibus
+                                soluta
+                                repudiandae. Magnam unde provident qui ut incidunt dicta saepe modi quaerat sunt
+                                suscipit
+                                cumque velit, recusandae, tenetur nesciunt.</p>
+
+                            <div class="slider_buttons">
+                                <button><a href="contact.html">Get Appointment</a></button>
+                                <button>Learn More</button>
+                            </div>
+                        </div>
+                        <div class="slider_items">
+                            <div class="slider_img"><img src="./images/slider_bg1.png" style="object-fit: contain;" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="slider_content">
+                        <div class="slider_items">
+                            <h2>MEDICAL SERVICES THAT </h2>
+                            <h2>YOU CAN TRUST</h2>
+                            <p>? Our support staff will answer your questions.</p>
+                            <p style="margin: 10px 0 0 0">Appointment</p>
+
+                            <button><a href="contact.html">MAKE AN APPOINTMENT</a></button>
+                        </div>
+                        <div class="slider_items">
+                            <div class="slider_img"><img src="./images/slider_bg4 (2).png" style="object-fit: contain;" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="slider_content">
+                        <div class="slider_items">
+                            <div class="slider_img"><img src="./images/slider_bg2.png" style="object-fit: contain;" alt=""></div>
+                        </div>
+                        <div class="slider_items">
+                            <p>Evolving today's doctor</p>
+                            <h2>THE FUTURE OF </h2>
+                            <h2>MEDICAL TRAINING</h2>
+                            <button>Experience our Activities</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_arrow_container">
+                    <button onclick="arrowLeft(-1)"> <i class="fa fa-arrow-left"></i> </button>
+                    <button onclick="arrowLeft(1)"> <i class="fa fa-arrow-right"></i> </button>
+                </div>
+                <div class="slider_dots_container">
+                    <button onclick="myDot(1)"></button>
+                    <button onclick="myDot(2)"></button>
+                    <button onclick="myDot(3)"></button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="details_container">
+            <div class="details_content">
+                <i class="fa-regular fa-hospital"></i>
+                <h2>850</h2>
+                <p>Patient Beds</p>
+            </div>
+            <div class="details_content">
+                <i class="fa-solid fa-users"></i>
+                <h2>1200+</h2>
+                <p>Happy pattient</p>
+
+            </div>
+            <div class="details_content">
+                <i class="fa-solid fa-user-doctor"></i>
+                <h2>150</h2>
+                <p>Doctors and Nurse</p>
+            </div>
+            <div class="details_content">
+                <i class="fa-solid fa-user-tag"></i>
+                <h2>18</h2>
+                <p>Year Experience</p>
+            </div>
+        </div>
+    </div>
+    <!--################################## END OF SLIDER CONTAINER ############################## -->
+
+    <!--################################## START OF ABOUT CONTAINER ############################## -->
+    <div class="about_container">
+        <div class="about_container-margin">
+            <div class="abount_content">
+                <div class="content_img"><img src="./images/about.png" alt=""></div>
+            </div>
+            <div class="abount_content">
+                <div class="about_bg"><img src="./images/Stethoscope_wallpaper_for_doctors-removebg-preview.png" alt="">
+                </div>
+                <h2>About Our Hospital</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum magni numquam earum sit recusandae,
+                    vitae omnis voluptatibus minus nisi quos neque commodi. Eius accusamus inventore hic sunt distinctio
+                    culpa recusandae vero, repudiandae eligendi fugit fuga optio nulla ipsa a impedit temporibus,
+                    blanditiis doloribus tenetur consequuntur nemo neque quo praesentium in.</p>
+
+                <div class="section">
+                    <p><i class="fa-regular fa-circle-check"></i> Browse our website</p>
+                    <p><i class="fa-regular fa-circle-check"></i> Choose Service</p>
+                    <p><i class="fa-regular fa-circle-check"></i> Send Message</p>
+                </div>
+                <button>Know more</button>
+            </div>
+        </div>
+    </div>
+    <!--################################## END OF SLIDER CONTAINER ############################## -->
+
+    <!--################################## START OF OUR SERVICES CONTAINER ############################## -->
+    <div class="our_services_container">
+        <div class="our_service_margin">
+            <h2 class="heading">Our Hospital Services</h2>
+            <div class="services_container">
+                <div class="services_content">
+                    <div class="content">
+                        <div class="how">
+                            <i class="fa-solid fa-user-doctor"></i>
+                            <h2>Expert Doctor</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, atque sunt
+                                eligendi </p>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <div class="how">
+                            <i class="fa-sharp fa-solid fa-book-medical"></i>
+                            <h2>Diognosis</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, atque sunt
+                                eligendi </p>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <div class="how">
+                            <i class="fa-solid fa-user-doctor"></i>
+                            <h2>Pathology</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, atque sunt
+                                eligendi </p>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <div class="how">
+                            <i class="fa-solid fa-user-doctor"></i>
+                            <h2>Dental care</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, atque sunt
+                                eligendi </p>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <div class="how">
+                            <i class="fa-solid fa-user-doctor"></i>
+                            <h2>Cordiology</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, atque sunt
+                                eligendi </p>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <div class="how">
+                            <i class="fa-solid fa-user-doctor"></i>
+                            <h2>Medicine</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, atque sunt
+                                eligendi </p>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <div class="how">
+                            <i class="fa-solid fa-user-doctor"></i>
+                            <h2>Neurology</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, atque sunt
+                                eligendi </p>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <div class="how">
+                            <i class="fa-solid fa-user-doctor"></i>
+                            <h2>Abulance</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, atque sunt
+                                eligendi </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--################################## END  OF SLIDER CONTAINER ############################## -->
+
+    <!--################################## START OF  OUR EXPERTIES CONTAINER ############################## -->
+    <div class="our_experties_container">
+
+        <div class="our_experties-margin">
+            <h2 class="expertHeading">Our Expertise</h2>
+            <div class="experties_container">
+                <div class="experties_content">
+                    <div class="experties_card">
+                        <div class="card">
+                            <i class="fa-solid fa-user-doctor"></i>
+                            <h2>Certified Doctors</h2>
+                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+
+                    </div>
+                    <div class="experties_card">
+                        <div class="card">
+                            <i class="fa-sharp fa-solid fa-book-medical"></i>
+                            <h2>Certified Doctors</h2>
+                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="experties_card">
+                        <div class="card">
+                            <i class="fa-solid fa-user-doctor"></i>
+                            <h2>Certified Doctors</h2>
+                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="experties_card">
+                        <div class="card">
+                            <i class="fa-solid fa-user-doctor"></i>
+                            <h2>Certified Doctors</h2>
+                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experties_content">
+                    <div class="expert_gen">
+                        <div class="epert_img"><img src="./images/expert1 (3).jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--################################## END OF OUR EXPERTIES CONTAINER ############################## -->
+
+
+    <!--################################## START OF MEET  OUR DOCTORS CONTAINER ############################## -->
+    <div class="swiper_container">
+        <div class="swiper_margin">
+            <h2 class="swiper_heading">Meet Our Doctors</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper_content">
+                            <div class="doctor_img"><img src="./images/expert.jpg" alt=""></div>
+                            <div class="dec">
+                                <h2> Dr. Great Ewuru</h2>
+                                <p>Neurosurgeon</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper_content">
+                            <div class="doctor_img"><img src="./images/expert1 (2).jpg" alt=""></div>
+                            <div class="dec">
+                                <h2> Dr. Desire Tennyson</h2>
+                                <p>Pathology</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper_content">
+                            <div class="doctor_img"><img src="./images/expert.jpg" alt=""></div>
+                            <div class="dec">
+                                <h2> Dr.Princess George</h2>
+                                <p>Dental care</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper_content">
+                            <div class="doctor_img"><img src="./images/expert1 (2).jpg" alt=""></div>
+                            <div class="dec">
+                                <h2> Dr. Bright Ewuru</h2>
+                                <p>Cordiology</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper_content">
+                            <div class="doctor_img"><img src="./images/expert.jpg" alt=""></div>
+                            <div class="dec">
+                                <h2> Dr. Samuel Emeka</h2>
+                                <p>Neurology</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper_content">
+                            <div class="doctor_img"><img src="./images/expert1 (2).jpg" alt=""></div>
+                            <div class="dec">
+                                <h2>Samson Ewuru</h2>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+
+        </div>
+        <!-- <div class="swiper-pagination"></div> -->
+    </div>
+    <!--################################## END OF MEET OUR DOCTORS CONTAINER############################## -->
+
+    <!--################################## START OF OUR LATEST BLOG CONTAINER ############################## -->
+    <div class="our_latest_blog_container">
+        <div class="our_latest_blog-margin">
+            <h2 class="blog_heading"> Our latest blog</h2>
+            <div class="blog_contents">
+                <div class="blog_item">
+                    <div class="content">
+                        <div class="blog_img"><img src="./images/blog3.jpg" alt=""></div>
+                        <div class="blog_dec">
+                            <h2>In this hospital they are special surgeon</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error a ullam deleniti enim
+                                impedit voluptas?</p>
+                        </div>
+                        <div class="blog_button">
+                            <button>Read More <i class="fa fa-arrow-right"></i></button>
+                            <div class="dates"><i></i> <span>Jan 03, 2022</span></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="blog_item">
+                    <div class="content">
+                        <div class="blog_img"><img src="./images/blog2.jpg" alt=""></div>
+                        <div class="blog_dec">
+                            <h2>In this hospital they are special surgeon</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error a ullam deleniti enim
+                                impedit voluptas?</p>
+                        </div>
+                        <div class="blog_button">
+                            <button>Read More <i class="fa fa-arrow-right"></i></button>
+                            <div class="dates"><i></i> <span>Jan 03, 2022</span></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="blog_item">
+                    <div class="content">
+                        <div class="blog_img"><img src="./images/blog4.jpg" alt=""></div>
+                        <div class="blog_dec">
+                            <h2>In this hospital they are special surgeon</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error a ullam deleniti enim
+                                impedit voluptas?</p>
+                        </div>
+                        <div class="blog_button">
+                            <button>Read More <i class="fa fa-arrow-right"></i></button>
+                            <div class="dates"><i></i> <span>Jan 03, 2022</span></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="blog_item">
+                    <div class="content">
+                        <div class="blog_img"><img src="./images/blog1.png" alt=""></div>
+                        <div class="blog_dec">
+                            <h2>In this hospital they are special surgeon</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error a ullam deleniti enim
+                                impedit voluptas?</p>
+                        </div>
+                        <div class="blog_button">
+                            <button>Read More <i class="fa fa-arrow-right"></i></button>
+                            <div class="dates"><i></i> <span>Jan 03, 2022</span></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--################################## END OF OUR LATES BLOG CONTAINER############################## -->
+
+    <!--################################## START OF NEWS LATER CONTAINER ############################## -->
+    <div class="news_letter_container">
+        <div class="news_letter_margin">
+            <div class="news_content">
+                <h2>Join Our New Letter</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ratione unde eaque.</p>
+            </div>
+            <div class="news_content">
+                <div class="input_search">
+                    <input type="text" name="" id="" placeholder="Enter email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--################################## END OF NEWS LATER CONTAINER ############################## -->
+
+    <!--################################## START OF FOOTER CONTAINER ############################## -->
+    <footer>
+        <div class="content">
+            <div class="top">
+                <div class="logo-details">
+                    <i class="fab fa-slack"></i>
+                    <span class="logo_name">GREHMA</span>
+                </div>
+                <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="link-boxes">
+                <ul class="box">
+                    <li class="link_name">Company</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Get started</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Services</li>
+                    <li><a href="#">App design</a></li>
+                    <li><a href="#">Web design</a></li>
+                    <li><a href="#">Logo design</a></li>
+                    <li><a href="#">Banner design</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Account</li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">Prefrences</a></li>
+                    <li><a href="#">Purchase</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Courses</li>
+                    <li><a href="#">HTML & CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Photoshop</a></li>
+                </ul>
+                <ul class="box input-box">
+                    <li class="link_name">Subscribe</li>
+                    <li><input type="text" placeholder="Enter your email"></li>
+                    <li><input type="button" value="Subscribe"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright © 2022 <a href="#">Sanson Ewuru.</a>All rights reserved</span>
+                <span class="policy_terms">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms & condition</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <!--################################## END OF FOOTER CONTAINER ############################## -->
+
+</body>
+<!--################################## SCRIPTS ############################## -->
+<script src="./scripts/index.js"></script>
+<!--################################## END OF SCRIPTS ############################## -->
+
+</html>
